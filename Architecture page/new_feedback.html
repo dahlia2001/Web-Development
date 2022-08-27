@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="new_feedback.css" />
+       
+    </head>
+    <body>
+
+    <div class="container">
+        <br>
+        <h1 style="color: rgb(43, 46, 45); font-family:Cochin; text-align: right; font-size: 1cm;font-weight: bolder; ">
+            <b>FEEBACK FORM</b>
+        </h1>
+  <form action="action_page.php">
+     <label for="fname" style="font-weight: bolder;">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <br>
+      
+          <label for="lname" style="font-weight: bolder;">Last Name&nbsp;</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <br>
+          <label for="email" style="font-weight: bolder;">Email Id&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <input type="email" id="email" name="email" placeholder="Your Email Id..">
+          <br>
+      
+          <label for="country" style="font-weight: bolder;">Country&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <select id="country" name="country">
+              <ol>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="india">India</option>
+            <option value="china">China</option>
+            <option value="nepal">Nepal</option>
+            <option value="germany">Germany</option>
+            <option value="italy">Italy</option>
+            <option value="africa">Africa</option>
+            <option value="amsterdam">Amsterdam</option>
+            <option value="dubai">Dubai</option>
+            <option value="srilanka">Srilanka</option>
+            <option value="singapore">Singapore</option>
+            <option value="malaysia">Malaysia</option>
+            <option value="uk">UK</option>
+        </ol>
+          </select>
+          <br>
+          <label for="1" style="font-weight: bolder;" >On a scale of 1-5 how likely would you recommend our firm to your friends and relatives?</label><br><br>
+           
+            <input name="1" type="radio"id="radiocheck" style="border-radius: 1cm; color: #000;">
+            <label for="1">1</label><br>
+            <input name="1" type="radio"id="radiocheck" style="border-radius: 1cm; color: #000;">
+            <label for="1">2</label><br>
+            <input name="1" type="radio"id="radiocheck" style="border-radius: 1cm;">
+            <label for="1">3</label><br>
+            <input name="1" type="radio"id="radiocheck" style="border-radius: 1cm;">
+            <label for="1">4</label><br>
+            <input name="1" type="radio"id="radiocheck" style="border-radius: 1cm;">
+            <label for="1">5</label><br>
+            
+      <br>
+      <label for="2" style="font-weight: bolder;" >What type of buildings do you think we are good at?</label><br><br>
+      <input name="2" type="checkbox"id="radiocheck" style="border-radius: 1cm; color: #000;">   
+      <label for="2" >apartments</label><br>
+      <input name="2" type="checkbox"id="radiocheck" style="border-radius: 1cm; color: #000;">
+      <label for="2" >office buildings</label><br>
+      <input name="2" type="checkbox"id="radiocheck" style="border-radius: 1cm;">
+      <label for="2" >Houses</label><br>
+    <br>
+    <label for="3" style="font-weight: bolder;" >Are you satisfied with our service?</label><br><br>
+           
+            <input name="3" type="radio"id="radiocheck" style="border-radius: 1cm; color: #000;">
+            <label for="3">Yes</label><br>
+            <input name="3" type="radio"id="radiocheck" style="border-radius: 1cm; color: #000;">
+            <label for="3">No</label><br>
+            <br>
+          <label for="subject" style="font-weight: bolder;">Give us some comments on our firm</label>
+          <br>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <br>
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+    </body>
+</html>
